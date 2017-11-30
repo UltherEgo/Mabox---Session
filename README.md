@@ -1,7 +1,7 @@
 # Mabox---Session
 
 <p align="center">
-  <img src="2017-11-30-134327_1920x1080_scrot.png" width="550"/>
+  <img src="2017-11-30-134327_1920x1080_scrot.png" width="1200"/>
 </p>
 
 # X terminal config: 
