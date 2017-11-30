@@ -1,0 +1,9 @@
+<b>Nazwa kolekcji: Peaper_Dark_Color</b>	
+Zapisana: czw, 30 lis 2017, 18:19:42 CET
+
+X terminal config:  /home/ulther/.bashrc;/home/ulther/.Xresources\n
+Openbox theme:  Numix\n
+GTK theme:  Vertex-Maia-Dark\n
+Działające Tint2:\t\n\t/home/ulther/.config/tint2/tint2rc\n
+Tapeta ustawiona przez Nitrogen:\n/home/ulther/Pictures/wallpaper/Flower_in_Dark_by_Ameen_Fahmy.jpg;\n
+Konfiguracja Lightdm:  /etc/lightdm/lightdm-gtk-greeter.conf\n
