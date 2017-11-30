@@ -1,6 +1,8 @@
 # Mabox---Session
 
-![alt text] (https://github.com/UltherEgo/Mabox---Session/blob/master/2017-11-30-134327_1920x1080_scrot.png)
+<p align="center">
+  <img src="Wallpaper.jpg" width="350"/>
+</p>
 
 # X terminal config: 
 
