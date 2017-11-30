@@ -1,26 +1,26 @@
 # Mabox---Session
 
-X terminal config: 
+# X terminal config: 
 
 ~/.bashrc ~/.Xresources
 
-Openbox theme: 
+# Openbox theme: 
 
 Numix
 
-GTK theme: 
+# GTK theme: 
 
 Vertex-Maia-Dark
 
-Tint2:
+# Tint2:
 
 ~/.config/tint2/tint2rc
 
-Wallpaper.jpg:
+# Wallpaper.jpg:
 
 Add in nitrogen
 
-Plank:
+# Plank:
 
 sudo pacman -S plank
 
@@ -29,7 +29,7 @@ and add in ~/.config/openbox/autostart the line:
 `## Plank
 (sleep 1s && plank) &`
 
-Icon Theme:
+# Icon Theme:
 
 Papirus Dark with Breeze actions
 
