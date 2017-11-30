@@ -1,0 +1,66 @@
+## Mabox Autostart File
+##
+##
+##
+## Note that global autostart .desktop files will also be in
+## /etc/xdg/openbox/autostart. These will include applications
+## such as the Network Manager and Parcellite
+##
+
+## DPMS - Display Power Management Signaling
+## This is disabled by default to prevent auto-actions when
+## the system is idle, such as screen blanking (10 mins) or
+## suspending (1 hour).
+
+
+
+## Ensure that obmenu-generator (a pipe menu) is set to the user.
+## Does this for each session (i.e. ease of use for addtional
+## accounts where created.
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+
+## Background
+(sleep 1s && nitrogen --restore) &
+
+## Basic compositing effects
+(sleep 1s && compton --config ~/.config/compton.conf --shadow-exclude 'n:a:Conky' -CGb) &
+
+## Panel
+(sleep 1s && mb-tint2-session) &
+
+## Startup
+(sleep 1s && volumeicon) &
+(sleep 1s && clipit) &
+#(sleep 1s && pamac-tray) &
+(sleep 1s && gkrellm -w) &
+
+## Optionally enable file manager in daemon mode for automounting
+(sleep 1s && pcmanfm -d) &
+
+## Optionally enable screensaver
+#(sleep 1s && xautolock -time 15 -locker 'xlock -mode blank') &
+
+## Optionally disable touchpad
+#/usr/bin/synclient TouchpadOff=1 &
+
+## Regeneracja menu
+(sleep 1s && mb-regenerate-menu) &
+
+## Mabox-welcome screen 
+#(sleep 1s && mb-welcome --autostart) &
+
+## Conky
+#(sleep 2s && mb-conky-session --autostart) &
+
+## Numlockx
+(sleep 1s && numlockx on) &
+
+## Plank
+(sleep 1s && plank) &
+
+## Alsamixer
+(sleep 2s && alsamixer) &
+
+## Alsactl
+(sleep 2s && alsactl --file ~/.config/asound.restore restore) &
