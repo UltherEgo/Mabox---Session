@@ -31,6 +31,7 @@ sudo pacman -S plank
 and add in ~/.config/openbox/autostart the line:
 
 `## Plank`
+
 `(sleep 1s && plank) &`
 
 # Icon Theme:
