@@ -20,9 +20,9 @@ Vertex-Maia-Dark
 
 ~/.config/tint2/tint2rc
 
-# Wallpaper.jpg:
+# Wallpaper:
 
-Add in nitrogen
+Set wallpaper.jpg in Nitrogen.
 
 # Plank:
 
@@ -30,13 +30,13 @@ sudo pacman -S plank
 
 and add in ~/.config/openbox/autostart the line:
 
-`## Plank 
-(sleep 1s && plank) &`
+`## Plank`
+`(sleep 1s && plank) &`
 
 # Icon Theme:
 
 Papirus Dark with Breeze actions
 
-Add in obconf
+Add and set in obconf
 
 
