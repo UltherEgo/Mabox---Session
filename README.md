@@ -24,4 +24,8 @@ Necessary Programs For Me
 
 My favorite Wallpapers
 
+# VIM
+
+My settings on vim
+
 
