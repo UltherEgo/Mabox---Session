@@ -16,6 +16,12 @@ Papirus Dark with Breeze actions
 
 Matcha-dark-azul
 
-# Pseudo Installers
+# Pseudo Installers:
 
 Necessary Programs For Me
+
+# Wallpapers Catalog:
+
+My favorite Wallpapers
+
+
