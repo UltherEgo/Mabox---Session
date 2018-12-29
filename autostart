@@ -41,7 +41,7 @@ xcape -e 'Super_L=Super_L|space'
 ## Optionally enable file manager in daemon mode for automounting
 (sleep 1s && pcmanfm -d) &
 
-## Numlock on
+## Numlockx
 (sleep 1s && numlockx on) &
 
 ## Optionally disable touchpad
@@ -50,23 +50,11 @@ xcape -e 'Super_L=Super_L|space'
 ## Regeneracja menu
 (sleep 1s && mb-regenerate-menu) &
 
-## Asound
-#(sleep 1s && asound) &
+## Mabox-welcome screen 
+(sleep 1s && mb-welcome --autostart) &
 
 ## Basic compositing effects
 (sleep 1s && compton --config ~/.config/compton.conf --shadow-exclude 'n:a:Conky' -CGb) &
 
 ## Flameshot
 (sleep 1s && flameshot) &
-
-## HexChat
-#(sleep 1s && hexchat --minimize=1) &
-
-########################################################################
-
-## Mabox-welcome screen 
-#(sleep 1s && mb-welcome --autostart) &
-
-## Conky
-#(sleep 2s && mb-conky-session --autostart) &
-
