@@ -15,3 +15,7 @@ Papirus Dark with Breeze actions
 # Theme:
 
 Matcha-dark-azul
+
+# Pseudo Installers
+
+Necessary Programs For Me
