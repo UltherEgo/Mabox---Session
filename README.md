@@ -27,5 +27,3 @@ My favorite Wallpapers
 # VIM
 
 My settings on vim
-
-
