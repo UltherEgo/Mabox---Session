@@ -7,6 +7,7 @@
 # Tint2:
 
 popside-red.tint2rc
+trapar-top.tint2rc
 
 # Icon Theme:
 
