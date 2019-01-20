@@ -14,6 +14,7 @@ Trapar:
 # Tint2:
 
 popside-red.tint2rc
+or
 trapar-top.tint2rc
 
 # Icon Theme:
