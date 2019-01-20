@@ -1,8 +1,15 @@
 # Mabox---Session
 
+Popside:
 <p align="center">
-  <img src="wallpaper.jpg" width="1200"/>
+  <img src="popside.jpg" width="1200"/>
 </p>
+
+Trapar:
+<p align="center">
+  <img src="trapar.png" width="1200"/>
+</p>
+
 
 # Tint2:
 
