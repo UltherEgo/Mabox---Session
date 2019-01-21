@@ -17,7 +17,7 @@
 
 **Copy**: 
 
-$>>> cp -r popside-red.tint2rc trapar-top.tint2rc launchy.tint2rc icons/ ~/.config/conky
+$>>> cp -r popside-red.tint2rc trapar-top.tint2rc launchy.tint2rc icons/ ~/.config/tint2/
 
 # Icon Theme:
 
