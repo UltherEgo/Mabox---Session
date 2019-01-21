@@ -200,7 +200,7 @@ launcher_item_app = /usr/share/applications/jgmenu.desktop
 
 #-------------------------------------
 # Clock
-time1_format = %G.%m.%d  %H:%M:%S
+time1_format = %G.%d.%m  %H:%M:%S
 time2_format = 
 time1_font = Noto Sans Bold 12
 time1_timezone = 
@@ -250,7 +250,7 @@ separator_padding = 1 0
 #-------------------------------------
 # Button 1
 button = new
-button_icon = /home/ulther/.config/tint2/icons/search.png
+button_icon = /home/ulther/.config/tint2/icons/traper/search.png
 button_text = Search
 button_lclick_command = rofi -modi run,drun,window -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Noto Sans 11"
 button_rclick_command = rofi -modi run,drun,window -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font "Noto Sans 11"
@@ -267,7 +267,7 @@ button_max_icon_size = 20
 #-------------------------------------
 # Button 2
 button = new
-button_icon = /home/ulther/.config/tint2/icons/exit.png
+button_icon = /home/ulther/.config/tint2/icons/traper/exit.png
 button_text = Exit
 button_lclick_command = rofr.sh -l
 button_rclick_command = rofr.sh -l
