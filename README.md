@@ -1,22 +1,23 @@
 ## Tint2
 
-#Popside:
+**Popside**:
 <p align="center">
   <img src=".popside.jpg" width="1200"/>
 </p>
 
-#Trapar:
+**Trapar**:
 <p align="center">
   <img src=".trapar.png" width="1200"/>
 </p>
 
-#Launchy:
+**Launchy**:
 <p align="center">
   <img src=".launchy.png" width="1200"/>
 </p>
 
+**Copy**: 
 
-Copy: cp -r popside-red.tint2rc trapar-top.tint2rc launchy.tint2rc icons/ ~/.config/conky
+$>>> cp -r popside-red.tint2rc trapar-top.tint2rc launchy.tint2rc icons/ ~/.config/conky
 
 # Icon Theme:
 
