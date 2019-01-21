@@ -1,25 +1,22 @@
-# Mabox---Session
+## Tint2
 
-Popside:
+#Popside:
 <p align="center">
   <img src=".popside.jpg" width="1200"/>
 </p>
 
-Trapar:
+#Trapar:
 <p align="center">
   <img src=".trapar.png" width="1200"/>
 </p>
 
-Launchy:
+#Launchy:
 <p align="center">
   <img src=".launchy.png" width="1200"/>
 </p>
 
-# Tint2:
 
-1. popside-red.tint2rc
-2. trapar-top.tint2rc
-3. launchy.tint2rc
+Copy: cp -r popside-red.tint2rc trapar-top.tint2rc launchy.tint2rc icons/ ~/.config/conky
 
 # Icon Theme:
 
